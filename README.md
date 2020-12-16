@@ -14,6 +14,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+If you need the node modules, make sure to Run `npm install` and if need be, change error of depricated @angularfire2 to @angular/fire. 
+I had to deal with a depricated import for firebase.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
