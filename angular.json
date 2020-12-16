@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "fireangularblog"
+  "defaultProject": "fireangularblog",
+  "cli": {
+    "analytics": "0653280a-59d9-473b-a3f0-b0c11437b99a"
+  }
 }

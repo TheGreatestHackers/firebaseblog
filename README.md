@@ -14,8 +14,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-If you need the node modules, make sure to Run `npm install` and if need be, change error of depricated @angularfire2 to @angular/fire. 
-I had to deal with a depricated import for firebase.
+If you need the node modules, make sure to Run `npm install` and if need be, change error of deprecated @angularfire2 to @angular/fire. 
+I had to deal with a deprecated import for firebase. 
+
+- If you are running into node modules errors, as I've seen dealing with `firebase.app.module.d.ts` or `interfaces.d.ts` or `database.d.ts` you must Run `ng add @angular/fire` correctly instead of what npm does by default and uninstall firebase and run that command. The imports are wacky but it should fix the issue.
+
+IF you see firebase/app as an issue, I assure you it's not and is something vs code won't pickup. 
 
 ## Running unit tests
 
